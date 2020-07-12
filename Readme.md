@@ -173,7 +173,7 @@ instructions, big-endian machines such as Power PC, and other platforms.
 On Unix-like systems, it should be easy to compile Stockfish
 directly from the source code with the included Makefile in the folder
 `src`. In general it is recommended to run `make help` to see a list of make
-targets with corresponding descriptions.
+targets with corresponding descriptions. As Stockfish makefile need GNU make syntax, you may want to use gmake instead for some systems (f.e. FreeBSD).
 
 ```
     cd src
